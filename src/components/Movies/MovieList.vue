@@ -38,7 +38,7 @@ const store = useStore();
 </script>
 
 <template>
-  <div class="container mx-auto pb-[90px]">
+  <div class="max-w-[1024px] mx-auto pb-[90px]">
     <div
       class="bg-[#E2E2E2] py-6 px-20 rounded-[6px] flex justify-between items-center mb-28"
     >

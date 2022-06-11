@@ -46,7 +46,7 @@ const runtime = computed(() => {
 </script>
 
 <template>
-  <div class="container mx-auto pb-[90px]" v-if="item">
+  <div class="max-w-[1024px] mx-auto pb-[90px]" v-if="item">
     <div class="bg-[#E2E2E2] py-6 px-20 rounded-[6px] flex items-center mb-20">
       <button
         @click="back"
